@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    text-align: center;
+    /*font-family: verdana, sans-serif;*/
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+h3 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 35%;
+    top: 10%;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 35%;
+    bottom: 300px;
+}
