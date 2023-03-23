@@ -1,19 +1,28 @@
 .home-page {
-  margin-left: 15rem;
-  // position: relative;
+  left: 15rem;
+  right: 5rem;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  // margin: 0 auto;
 
   .text-zone {
-    // left: 15rem;
-    top: 20%;
-    position: absolute;
-    text-align: left;
+    margin: auto;
+    display: inline-block;
+    margin-left: 5%;
     color: black;
+    text-align: left;
+    // display: block;
+    // width: 100px;
+    // margin: 0 auto;
+
+    // margin: auto 0;
+    // text-align: center;
     // z-index: -2;
-    
+
     h1 {
-      margin: 0;
-      // font-weight: ;
-      font-family:'Helvatica', sans-serif;
+      font-family: "Helvatica", sans-serif;
       line-height: 8rem;
     }
 
@@ -21,12 +30,11 @@
       color: #8f8f8f;
       font-size: 1.5rem;
       font-weight: 400;
-      opacity: 0;
       width: auto;
       white-space: pre;
       font-family: sans-serif;
       letter-spacing: 3px;
-      animation: fadeIn 1.8s 2.5s forwards;
+      animation: fadeIn 1.8s 2.5s backwards;
       margin-top: 1rem;
     }
 
@@ -40,42 +48,46 @@
 
   .flat-button {
     background: transparent;
-    color: #BF40BF;
-    position: absolute;
+    color: #bf40bf;
     white-space: pre;
     overflow: visible;
-    width: auto;
+    // width: auto;
     font-size: 2rem;
     letter-spacing: 4px;
     font-family: sans-serif;
     // top: 70%;
-    margin-top: 2rem;
+    margin-top: 3rem;
     padding: 1rem;
-    border: 1px solid #BF40BF;
+    border: 1px solid #bf40bf;
     border-radius: 10px;
-    box-shadow: 0px 0px 2px 2px #BF40BF;
+    box-shadow: 0px 0px 2px 2px #bf40bf;
     animation: fadeInLeft 1.8s 2.5s backwards;
-    float: left;
+    // float: left;
 
     &:hover {
-      background-color: #BF40BF;
+      background-color: #bf40bf;
       color: #333;
       transition: background-color 0.3s linear, color 0.3s linear;
     }
   }
-
-  img {
-    // left: 5rem;
-    // top: 50px;
-    // width: 200%;
-    // right: 5rem;
-    // margin: 0 auto;
-    width: 50%;
-    top: 15%;
-    right: 5%;
-    border-radius: 20%;
-
-    position: fixed;
-    animation: fadeInRight 1.8s 2.5s backwards;
+  .img-zone {
+    margin: auto;
+    img {
+      display: block;
+      margin: auto;
+      border-radius: 20%;
+      width: 900px;
+      // max-width: 630px;
+      // width: 150%;
+      // top: 0;
+      // bottom: 0;
+      // margin: 0 auto;
+      // top: 10%;
+      // display: inline-block;
+      // right: 0;
+      // text-align: center;
+      // position: fixed;
+      animation: fadeInRight 1.8s 2.5s backwards;
+    }
   }
 }

@@ -1,4 +1,4 @@
-import { NavLink, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import "./Layout.scss";
 import Sidebar from "../Sidebar/Sidebar.js"
 

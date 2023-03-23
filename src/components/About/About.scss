@@ -17,7 +17,7 @@
     p {
       margin-top: 2rem;
       font-size: 1.5rem;
-      width: 45%;
+      // width: 80%;
       line-height: 2.5rem;
       animation: fadeIn 1.5s 0.5s backwards;
     }
@@ -28,11 +28,12 @@
     // top: 0;
     // bottom: 0;
     // margin: 0 auto;
-    text-align: center;
-    top: 0;
-    right: 10%;
-    padding-top: 12%;
-    position: absolute;
+    // text-align: center;
+    // top: 0;
+    // right: 10%;
+    // padding-top: 12%;
+    // position: absolute;
+    width: 80%;
     animation: fadeIn 1.5s 0.5s backwards;
     // float: right;
     .btn {

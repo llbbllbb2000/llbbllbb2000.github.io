@@ -10,30 +10,30 @@ const Sidebar = () => {
   return (
     <div className="Sidebar">
       <nav class="nav flex-column">
-        <NavLink className="home-icon" to="/">
+        <NavLink className="icon home-icon nav-item" to="/">
           <img src={HomeImg} />
         </NavLink>
-        <NavLink className="about-icon" to="/about">
+        <NavLink className="icon about-icon nav-item" to="/about">
           <img src={AboutImg} />
         </NavLink>
-        <NavLink className="blog-icon" to="/blog">
+        <NavLink className="icon blog-icon nav-item" to="/blog">
           <img src={BlogImg} />
         </NavLink>
+        <ul>
+          <li className="nav-item">
+            <a target="_blank" href="https://linkedin.com/in/zisheng-cai/">
+              <img src={LinkedinImg} />
+            </a>
+          </li>
+          <li className="nav-item">
+            <a target="_blank" href="https://github.com/llbbllbb2000">
+              <img src={GithubImg} />
+            </a>
+          </li>
+        </ul>
       </nav>
-      <ul>
-        <li>
-          <a target="_blank" href="https://linkedin.com/in/zisheng-cai/">
-            <img src={LinkedinImg} />
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://github.com/llbbllbb2000">
-            <img src={GithubImg} />
-          </a>
-        </li>
-      </ul>
     </div>
   );
-};  
+};
 
 export default Sidebar;
