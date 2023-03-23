@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.c89d22fb.css",
-    "main.js": "/static/js/main.a0ee32eb.js",
+    "main.css": "/static/css/main.39a4e0bf.css",
+    "main.js": "/static/js/main.50cba649.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/MyImg.png": "/static/media/MyImg.0891ca7d25126b961e7b.png",
+    "static/media/Zisheng_Cai_resume.pdf": "/static/media/Zisheng_Cai_resume.ed3ec821c8ef4b53111d.pdf",
     "static/media/book.svg": "/static/media/book.23a71387ff5b5bbabf414834c97ad8e4.svg",
     "static/media/github.svg": "/static/media/github.22e65707326e3e1e37afd21c5334995a.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
+    "static/media/download.svg": "/static/media/download.bfe4f35050620d120c5bde9f4158aa09.svg",
     "index.html": "/index.html",
     "static/media/house-door-fill.svg": "/static/media/house-door-fill.833cc237da3686e033e6e572b5f3c58f.svg",
     "static/media/taiji2.svg": "/static/media/taiji2.22402ec0abde1a727e44dfc5b175d22e.svg",
     "static/media/person-fill.svg": "/static/media/person-fill.516b8bd021edff6a59a3672c8c83db18.svg",
-    "main.c89d22fb.css.map": "/static/css/main.c89d22fb.css.map",
-    "main.a0ee32eb.js.map": "/static/js/main.a0ee32eb.js.map",
+    "main.39a4e0bf.css.map": "/static/css/main.39a4e0bf.css.map",
+    "main.50cba649.js.map": "/static/js/main.50cba649.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c89d22fb.css",
-    "static/js/main.a0ee32eb.js"
+    "static/css/main.39a4e0bf.css",
+    "static/js/main.50cba649.js"
   ]
 }
