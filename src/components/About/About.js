@@ -60,40 +60,25 @@ const About = () => {
                 <h1>
                   <AnimatedLetters
                     letterClass={letterClass}
-                    strArr={["P", "r", "o", "j", "e", "c", "t"]}
+                    strArr={["R", "e", "s", "u", "m", "e"]}
                     idx={4}
                   />
                 </h1>
-                <div className="project-page">
-                  <div className="d-grid gap-2 mx-auto">
-                    <a
-                      className="btn btn-outline-primary btn-lg"
-                      href="https://github.com/llbbllbb2000/llbbllbb2000.github.io/tree/code"
-                      target="_blank"
-                    >
-                      Personal Website
-                      <br />
-                      Using React Router DOM with HTML/CSS/JS
-                    </a>
-                    <a
-                      className="btn btn-outline-primary btn-lg"
-                      href="https://github.com/llbbllbb2000/CS144"
-                      target="_blank"
-                    >
-                      TCP/IP Protocol
-                      <br />
-                      Using C++ to build a simple TCP/IP Protocol
-                    </a>
-                    <a
-                      className="btn btn-outline-primary btn-lg"
-                      href="https://github.com/llbbllbb2000/cancer-diagnose"
-                      target="_blank"
-                    >
-                      Cancer Detection Project :
-                      <br />
-                      a CNN network using Python,
-                      <br />a React front-end app and a flask back-end
-                    </a>
+                <div className="d-grid gap-2 mx-auto">
+                  <div className="text-container">
+                    <h1>Brandeis University</h1>
+                    <h2>Computer Science</h2>
+                    <p>Java Programming, Algorithm and Data Structure, Web Development, Machine Learning</p>
+                  </div>
+                  <div className="text-container">
+                    <h1>Dalian University of Technology</h1>
+                    <h2>Environmental and Ecological Engineering</h2>
+                    <p>C/C++ Programming, Electrical Technology, Biostatistics and Experimental Design</p>
+                  </div>
+                  <div className="text-container">
+                    <h1>XPeng</h1>
+                    <h2>Data Analyst Intern</h2>
+                    <p>Python, SQL, NoSQL</p>
                   </div>
                 </div>
               </div>

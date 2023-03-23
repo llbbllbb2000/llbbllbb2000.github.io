@@ -1,6 +1,7 @@
 .about-page {
   margin-left: 15rem;
   position: absolute;
+  // margin-right: ;
   //   margin-top: 7.5rem;
   .text-zone {
     margin-top: 7.5rem;
@@ -13,33 +14,37 @@
         }
       }
     }
+  }
 
-    p {
-      margin-top: 2rem;
-      font-size: 1.5rem;
-      // width: 80%;
-      line-height: 2.5rem;
-      animation: fadeIn 1.5s 0.5s backwards;
-    }
+  p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    // width: 80%;
+    line-height: 2.5rem;
+    animation: fadeIn 1.5s 0.5s backwards;
   }
   
-  .project-page {
-    // right: 0;
-    // top: 0;
-    // bottom: 0;
-    // margin: 0 auto;
-    // text-align: center;
-    // top: 0;
-    // right: 10%;
-    // padding-top: 12%;
-    // position: absolute;
-    width: 80%;
+  .text-container {
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 650px;
+    // margin-right: 1rem;
+    // display: block;
     animation: fadeIn 1.5s 0.5s backwards;
-    // float: right;
-    .btn {
-        margin: 1.5rem 0;
-        font-size: 2rem;
-        width: 100%;
+    p {
+      margin: 1rem 0 0 0;
     }
+    h1 {
+      font-size: 2rem;
+      letter-spacing: 2px;
+      color: black;
+    }
+    h2 {
+      font-size: 1.8rem;
+      color: gray;
+    }
+
+    border: 2px solid #64b6ac;
+    border-radius: 2rem;
   }
 }

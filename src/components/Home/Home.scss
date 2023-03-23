@@ -4,8 +4,6 @@
   top: 0;
   bottom: 0;
   position: absolute;
-  text-align: center;
-  // margin: 0 auto;
 
   .text-zone {
     margin: auto;
@@ -13,37 +11,24 @@
     margin-left: 5%;
     color: black;
     text-align: left;
-    // display: block;
-    // width: 100px;
-    // margin: 0 auto;
-
-    // margin: auto 0;
-    // text-align: center;
-    // z-index: -2;
 
     h1 {
       font-family: "Helvatica", sans-serif;
       line-height: 8rem;
     }
 
-    h2 {
-      color: #8f8f8f;
-      font-size: 1.5rem;
-      font-weight: 400;
-      width: auto;
-      white-space: pre;
-      font-family: sans-serif;
-      letter-spacing: 3px;
-      animation: fadeIn 1.8s 2.5s backwards;
-      margin-top: 1rem;
-    }
-
-    // span {
+    // h2 {
+    //   color: #8f8f8f;
+    //   font-size: 1.5rem;
+    //   font-weight: 400;
     //   width: auto;
-    //   // text-overflow: ellipsis;
-    //   white-space: nowrap;
-    //   // overflow: hidden;
+    //   white-space: pre;
+    //   font-family: sans-serif;
+    //   letter-spacing: 3px;
+    //   animation: fadeIn 1.8s 2.5s backwards;
+    //   margin-top: 1rem;
     // }
+
   }
 
   .flat-button {
@@ -51,18 +36,15 @@
     color: #bf40bf;
     white-space: pre;
     overflow: visible;
-    // width: auto;
     font-size: 2rem;
     letter-spacing: 4px;
     font-family: sans-serif;
-    // top: 70%;
     margin-top: 3rem;
     padding: 1rem;
     border: 1px solid #bf40bf;
     border-radius: 10px;
     box-shadow: 0px 0px 2px 2px #bf40bf;
     animation: fadeInLeft 1.8s 2.5s backwards;
-    // float: left;
 
     &:hover {
       background-color: #bf40bf;
@@ -77,16 +59,6 @@
       margin: auto;
       border-radius: 20%;
       width: 900px;
-      // max-width: 630px;
-      // width: 150%;
-      // top: 0;
-      // bottom: 0;
-      // margin: 0 auto;
-      // top: 10%;
-      // display: inline-block;
-      // right: 0;
-      // text-align: center;
-      // position: fixed;
       animation: fadeInRight 1.8s 2.5s backwards;
     }
   }

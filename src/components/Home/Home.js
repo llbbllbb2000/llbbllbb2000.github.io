@@ -68,7 +68,7 @@ const Home = () => {
                   idx={18}
                 />
               </h1>
-              <h2>HTML/CSS/JS, C/C++/Python/Java</h2>
+              {/* <h2>HTML/CSS/JS, C/C++/Python/Java</h2> */}
               <a href="mailto:zisheng.cai2000@gmail.com">
                 <button type="button" className="flat-button">
                   Contact Me
