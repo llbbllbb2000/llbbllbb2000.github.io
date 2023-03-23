@@ -47,4 +47,18 @@
     border: 2px solid #64b6ac;
     border-radius: 2rem;
   }
+
+  .btn {
+    img {
+      width: 1.5rem;
+      margin: 0 auto;
+      position: relative;
+      left: -25px;
+    }
+    margin-left: 124px;
+    font-size: 1.5rem;
+    width: 400px;
+    animation: fadeIn 1.5s 0.5s backwards;
+    border-radius: 10px;
+  }
 }

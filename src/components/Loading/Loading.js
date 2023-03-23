@@ -1,6 +1,6 @@
 import "./Loading.scss"
 import Taiji from "../../assets/images/taiji2.svg"
-import Quotes from "../../assets/quotes.json"
+import Quotes from "../../assets/files/quotes.json"
 
 const Loading = () => {
     // console.log(Quotes.length)

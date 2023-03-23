@@ -2,6 +2,8 @@ import "./About.scss";
 import Loading from "../Loading/Loading";
 import { useEffect, useState } from "react";
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
+import Resume from "../../assets/files/Zisheng_Cai_resume.pdf"
+import Download from "../../assets/images/download.svg"
 
 const About = () => {
   const [loadingClass, setLoadingClass] = useState(false);
@@ -22,8 +24,7 @@ const About = () => {
     <>
       {loadingClass ? (
         <div className="about-page">
-          <div className="text-zone">
-            <div className="row">
+          <div className="text-zone row">
               <div className="col">
                 <h1>
                   <AnimatedLetters
@@ -80,9 +81,14 @@ const About = () => {
                     <h2>Data Analyst Intern</h2>
                     <p>Python, SQL, NoSQL</p>
                   </div>
+                  <a  role="button"
+                  className="btn btn-outline-secondary"
+                  href={Resume} download>
+                  <img src={Download} />
+                    Download
+                  </a>
                 </div>
               </div>
-            </div>
           </div>
         </div>
       ) : (
