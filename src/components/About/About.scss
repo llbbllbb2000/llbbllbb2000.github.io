@@ -1,0 +1,44 @@
+.about-page {
+  margin-left: 15rem;
+  position: absolute;
+  //   margin-top: 7.5rem;
+  .text-zone {
+    margin-top: 7.5rem;
+    h1 {
+      color: #bf40bf;
+
+      .text-animate-hover {
+        &:hover {
+          color: #333;
+        }
+      }
+    }
+
+    p {
+      margin-top: 2rem;
+      font-size: 1.5rem;
+      width: 45%;
+      line-height: 2.5rem;
+      animation: fadeIn 1.5s 0.5s backwards;
+    }
+  }
+  
+  .project-page {
+    // right: 0;
+    // top: 0;
+    // bottom: 0;
+    // margin: 0 auto;
+    text-align: center;
+    top: 0;
+    right: 10%;
+    padding-top: 12%;
+    position: absolute;
+    animation: fadeIn 1.5s 0.5s backwards;
+    // float: right;
+    .btn {
+        margin: 1.5rem 0;
+        font-size: 2rem;
+        width: 100%;
+    }
+  }
+}

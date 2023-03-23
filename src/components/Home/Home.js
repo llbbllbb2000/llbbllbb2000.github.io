@@ -15,7 +15,7 @@ const Home = () => {
     } else {
       setTimeout(() => {
         setLoadingClass(true);
-      }, 3000);
+      }, 2000);
     }
   });
 

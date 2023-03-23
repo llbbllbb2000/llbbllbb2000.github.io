@@ -60,7 +60,7 @@
     &:hover {
       background-color: #BF40BF;
       color: #333;
-      transition: background-color 0.3s linear;
+      transition: background-color 0.3s linear, color 0.3s linear;
     }
   }
 
@@ -73,6 +73,7 @@
     width: 50%;
     top: 15%;
     right: 5%;
+    border-radius: 20%;
 
     position: fixed;
     animation: fadeInRight 1.8s 2.5s backwards;

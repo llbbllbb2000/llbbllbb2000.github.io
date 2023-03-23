@@ -4,7 +4,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  animation: fadeIn 1.5s backwards, fadeOut .7s 2.5s forwards;
+  animation: fadeIn 1s backwards, fadeOut .7s 1.5s forwards;
 
   img {
     @keyframes clockwiseSpin {
@@ -20,7 +20,7 @@
     // animation-timing-function: linear;
     width: 30%;
     margin: 0 auto;
-    animation: clockwiseSpin 3s infinite linear;
+    animation: clockwiseSpin 2s infinite linear;
     margin-bottom: 3rem;
   }
 
