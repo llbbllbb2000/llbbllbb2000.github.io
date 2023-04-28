@@ -1,0 +1,40 @@
+#title {
+    // position: fixed;
+    // left: 0;
+    // right: 0;
+    
+    background-color: #181A18;
+
+    .container-fluid {
+        // padding-left: 5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        
+        a {
+            text-decoration: none;
+            color: #E1E1E1;
+            padding: 0 2rem;
+            position: relative;
+
+            &:hover {
+                color: white;
+                font-size: bold;
+
+                // text-decoration: underline 2px;
+                // text-underline-offset: 1rem;
+                
+                &::after {
+                    content: '';
+
+                    width: 80%;
+                    position: absolute;
+                    left: 10%;
+                    bottom: -10px;
+
+                    border-width: 0.1rem;
+                    border-style: solid;
+                }
+            }
+        }
+    }
+}
