@@ -5,7 +5,7 @@ const Title = () => {
   let contents = ["Home", "About", "Career"];
 
   return (
-    <section id="title">
+    <section id="Title">
       <div className="container-fluid">
         <nav className="navbar navbar-expand-lg navbar-dark">
           {contents.map(content => (

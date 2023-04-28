@@ -1,3 +1,41 @@
 #Home {
-    background-color: #181A18;
+  // position: fixed;
+  // left: 0;
+  // right: 0;
+
+  background-color: #181a18;
+  color: #e1e1e1;
+  // text-align: center;
+  // padding: rem 0;
+  padding-bottom: 3rem;
+
+  h1 {
+    line-height: 5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    // border-right: solid 3px rgba(0,255,0,.75);
+    // animation: animated-text 4s steps(29, end) 1s 1 normal both,
+    //   animated-cursor 600ms steps(29, end) infinite;
+  }
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 472px;
+    }
+  }
+
+//   /* cursor animations */
+
+//   @keyframes animated-cursor {
+//     from {
+//       border-right-color: rgba(0, 255, 0, 0.75);
+//     }
+//     to {
+//       border-right-color: transparent;
+//     }
+//   }
 }
