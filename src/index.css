@@ -8,6 +8,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
+
+  /* line-height: 1.5; */
+  letter-spacing: 1.5px;
 }
 
 span {
@@ -16,7 +19,9 @@ span {
 
 h1 {
   font-size: 3rem;
-  letter-spacing: 5px;
+  /* line-height: 1.5; */
+  margin-bottom: 1.5rem;
+  /* letter-spacing: 5px; */
 }
 
 code {

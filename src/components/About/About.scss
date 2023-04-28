@@ -1,0 +1,16 @@
+#About {
+    padding: 5rem 0;
+    .about-text {
+        float: left;
+        position: inline-block;
+        width: 30%;
+    }
+    p {
+        line-height: 2rem;
+    }
+    img {
+        float: right;
+        position: inline-block;
+        width: 50%;
+    }
+}

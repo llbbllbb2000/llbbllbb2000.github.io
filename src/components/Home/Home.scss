@@ -8,34 +8,34 @@
   // text-align: center;
   // padding: rem 0;
   padding-bottom: 3rem;
-
-  h1 {
-    line-height: 5rem;
+  .intro-text {
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
-    // border-right: solid 3px rgba(0,255,0,.75);
-    // animation: animated-text 4s steps(29, end) 1s 1 normal both,
-    //   animated-cursor 600ms steps(29, end) infinite;
+    position: block;
+  }
+  h1 {
+    letter-spacing: 5px;
+    // position: block;
   }
 
-  @keyframes animated-text {
-    from {
-      width: 0;
-    }
-    to {
-      width: 472px;
-    }
-  }
-
-//   /* cursor animations */
-
-//   @keyframes animated-cursor {
+//   @keyframes animated-text {
 //     from {
-//       border-right-color: rgba(0, 255, 0, 0.75);
+//       width: 0;
 //     }
 //     to {
-//       border-right-color: transparent;
+//       width: 472px;
 //     }
 //   }
+
+  //   /* cursor animations */
+
+  //   @keyframes animated-cursor {
+  //     from {
+  //       border-right-color: rgba(0, 255, 0, 0.75);
+  //     }
+  //     to {
+  //       border-right-color: transparent;
+  //     }
+  //   }
 }

@@ -3,6 +3,7 @@ import "animate.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Title from "./components/Title/Title";
 import Home from "./components/Home/Home";
+import About from "./components/About/About";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <div>
       <Title />
       <Home />
+      <About />
     </div>
   );
 }
