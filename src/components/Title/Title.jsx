@@ -2,7 +2,7 @@ import "./Title.scss";
 import React from "react";
 
 const Title = () => {
-  let contents = ["Home", "About", "Career"];
+  let contents = ["Home", "About", "Education", "Experience"];
 
   return (
     <section id="Title">

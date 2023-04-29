@@ -1,16 +1,11 @@
 #About {
-    padding: 5rem 0;
-    .about-text {
-        float: left;
-        position: inline-block;
-        width: 30%;
-    }
+    padding: 5%;
     p {
+        padding-top: 2rem;
+        padding-right: 20%;
         line-height: 2rem;
     }
     img {
-        float: right;
-        position: inline-block;
-        width: 50%;
+        width: 100%;
     }
 }
