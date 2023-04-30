@@ -1,0 +1,17 @@
+#Footer {
+    
+  padding-bottom: 0;
+  background-color: #181a18;
+  color: #e1e1e1;
+  .container-fluid {
+    text-align: center;
+    img {
+      width: 2.5rem;
+      // padding: 1rem;
+      padding-right: 1rem;
+
+      -webkit-filter: invert(0.75); /* reverse the color in svg */
+      filter: invert(0.75);
+    }
+  }
+}

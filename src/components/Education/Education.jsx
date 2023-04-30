@@ -15,8 +15,8 @@ const Education = () => {
         <br />
         <h3>Relative Courses:</h3>
         <br />
-        <div className="row">
-          <div className="col-md-12 col-xl-4">
+        <div className="row description">
+          <div className="col-md-12 col-xl-4 item">
             <h4>Java Programming :</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -29,7 +29,7 @@ const Education = () => {
               consequat mattis. Nunc vestibulum interdum rutrum
             </p>
           </div>
-          <div className="col-md-12 col-xl-4">
+          <div className="col-md-12 col-xl-4 item">
             <h4>Data Structures :</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
@@ -42,7 +42,7 @@ const Education = () => {
               consequat mattis. Nunc vestibulum interdum rutrum
             </p>
           </div>
-          <div className="col-md-12 col-xl-4">
+          <div className="col-md-12 col-xl-4 item">
             <h4>Machine Learning :</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
