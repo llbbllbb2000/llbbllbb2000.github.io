@@ -1,6 +1,8 @@
 import "./About.scss";
 import React from "react";
-import ReadImg from "../../assets/images/MyImg.png";
+import Reading from "../../assets/images/reading.jpg";
+import Snowboard from "../../assets/images/snowboard.jpg";
+import Game from "../../assets/images/game.jpg";
 
 const About = () => {
   return (
@@ -20,8 +22,21 @@ const About = () => {
               consequat mattis. Nunc vestibulum interdum rutrum.
             </p>
           </div>
-          <div className="col-lg-12 col-xl-6">
-            <img src={ReadImg} alt="A photo of book" />
+          <div className="col-lg-12 col-xl-6 slider-container">
+            <input type="radio" name="slider" id="item-1" checked />
+            <input type="radio" name="slider" id="item-2" />
+            <input type="radio" name="slider" id="item-3" />
+            <div className="cards">
+              <label className="card" for="item-1" id="img-1">
+                <img src={Reading} alt="A photo of book" />
+              </label>
+              <label className="card" for="item-2" id="img-2">
+                <img src={Snowboard} alt="A photo of snowboard" />
+              </label>
+              <label className="card" for="item-3" id="img-3">
+                <img src={Game} alt="A photo of game controller" />
+              </label>
+            </div>
           </div>
         </div>
       </div>

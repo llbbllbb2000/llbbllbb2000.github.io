@@ -32,6 +32,7 @@ const Footer = () => {
             <img src={Copyright} style={{ width: "2%" }} />
             Copyright 2023 by Zisheng
         </p>
+        <p>Email: zisheng.cai2000@gmail.com | Tel: (+1) 712-650-0367</p>
       </div>
     </section>
   );
