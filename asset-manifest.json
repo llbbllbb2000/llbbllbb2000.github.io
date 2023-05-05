@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.39a4e0bf.css",
-    "main.js": "/static/js/main.50cba649.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/MyImg.png": "/static/media/MyImg.0891ca7d25126b961e7b.png",
-    "static/media/Zisheng_Cai_resume.pdf": "/static/media/Zisheng_Cai_resume.ed3ec821c8ef4b53111d.pdf",
-    "static/media/book.svg": "/static/media/book.23a71387ff5b5bbabf414834c97ad8e4.svg",
+    "main.css": "/static/css/main.c112c98e.css",
+    "main.js": "/static/js/main.83be5c72.js",
+    "static/media/snowboard.jpg": "/static/media/snowboard.b57d72c89519b62d00b3.jpg",
+    "static/media/reading.jpg": "/static/media/reading.6b20264162fa6b9eff68.jpg",
+    "static/media/Zisheng_Cai_resume.pdf": "/static/media/Zisheng_Cai_resume.8d3b4d4c9c40ef75d41e.pdf",
+    "static/media/game.jpg": "/static/media/game.0d16502b46705ac8bcb8.jpg",
+    "static/media/instagram.svg": "/static/media/instagram.eaa957f02fe3257f3533c2d96533dc6b.svg",
+    "static/media/facebook.svg": "/static/media/facebook.269ec09791a7fbaa6abd794da8f87347.svg",
     "static/media/github.svg": "/static/media/github.22e65707326e3e1e37afd21c5334995a.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
-    "static/media/download.svg": "/static/media/download.bfe4f35050620d120c5bde9f4158aa09.svg",
     "index.html": "/index.html",
-    "static/media/house-door-fill.svg": "/static/media/house-door-fill.833cc237da3686e033e6e572b5f3c58f.svg",
-    "static/media/taiji2.svg": "/static/media/taiji2.22402ec0abde1a727e44dfc5b175d22e.svg",
-    "static/media/person-fill.svg": "/static/media/person-fill.516b8bd021edff6a59a3672c8c83db18.svg",
-    "main.39a4e0bf.css.map": "/static/css/main.39a4e0bf.css.map",
-    "main.50cba649.js.map": "/static/js/main.50cba649.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "static/media/copyright.svg": "/static/media/copyright.bd0aede42272c135884bd53aff8b3bf1.svg",
+    "main.c112c98e.css.map": "/static/css/main.c112c98e.css.map",
+    "main.83be5c72.js.map": "/static/js/main.83be5c72.js.map"
   },
   "entrypoints": [
-    "static/css/main.39a4e0bf.css",
-    "static/js/main.50cba649.js"
+    "static/css/main.c112c98e.css",
+    "static/js/main.83be5c72.js"
   ]
 }
