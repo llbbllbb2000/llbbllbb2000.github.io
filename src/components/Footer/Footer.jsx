@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
         <br />
         <p>
-            <img src={Copyright} style={{ width: "2%" }} />
+            <img src={Copyright} style={{ width: "2rem" }} />
             Copyright 2023 by Zisheng
         </p>
         <p>Email: zisheng.cai2000@gmail.com | Tel: (+1) 712-650-0367</p>

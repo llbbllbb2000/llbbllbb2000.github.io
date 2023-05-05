@@ -23,7 +23,8 @@ const About = () => {
             </p>
           </div>
           <div className="col-lg-12 col-xl-6 slider-container">
-            <input type="radio" name="slider" id="item-1" checked />
+            {/* Using defaultcheck instead of checked in React.js!!! */}
+            <input type="radio" name="slider" id="item-1" defaultChecked/>
             <input type="radio" name="slider" id="item-2" />
             <input type="radio" name="slider" id="item-3" />
             <div className="cards">
