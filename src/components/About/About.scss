@@ -2,39 +2,30 @@
   padding: 5%;
   transition: background 0.4s ease-in;
   // background-color: #dfc98a;
+  // width: 800px;
+  min-height: 800px;
+  // height: 20%;
 
   p {
     padding-top: 2rem;
     padding-right: 20%;
     line-height: 2rem;
   }
-  img {
-    width: 100%;
-  }
 
   input[type="radio"] {
     display: none;
   }
 
-  @media (max-width: 1200px) {
-    .row {
-      margin-bottom: 30%;
-    }
-  }
-
   .slider-container {
-    // width: 100%;
-    max-width: 800px;
-    max-height: 600px;
-    // height: 100%;
     margin: auto;
-    padding-bottom: 30%;
+    padding-top: 50px;
+    padding-bottom: 450px;
     transform-style: preserve-3d;
   }
 
   .cards {
     position: relative;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
 
     .card {
       position: absolute;
