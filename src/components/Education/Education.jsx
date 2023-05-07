@@ -19,40 +19,56 @@ const Education = () => {
           <div className="col-md-12 col-xl-4 item">
             <h4>Java Programming :</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              placerat enim a erat fringilla, non ullamcorper quam auctor.
-              Pellentesque eu rhoncus magna. Cras urna diam, mollis tristique
-              orci in, commodo tempor sapien. Vestibulum imperdiet nec felis non
-              tincidunt. Praesent semper convallis vulputate. Morbi mollis risus
-              non sapien tempor feugiat. In non aliquam felis. Sed diam sapien,
-              blandit vitae orci eu, venenatis vestibulum ante. Cras at mi a leo
-              consequat mattis. Nunc vestibulum interdum rutrum
+              <ul>
+                <li>
+                  Understood how to use data structures in Java, such as
+                  ArrayList, Stacks, and Queues
+                </li>
+                <li>
+                  Learned OOP Programming, and four concepts, including
+                  abstraction, encapsulation, inheritance, and polymorphism
+                </li>
+                <li>Implemented JUnit to test programming assignments</li>
+              </ul>
             </p>
           </div>
           <div className="col-md-12 col-xl-4 item">
             <h4>Data Structures :</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              placerat enim a erat fringilla, non ullamcorper quam auctor.
-              Pellentesque eu rhoncus magna. Cras urna diam, mollis tristique
-              orci in, commodo tempor sapien. Vestibulum imperdiet nec felis non
-              tincidunt. Praesent semper convallis vulputate. Morbi mollis risus
-              non sapien tempor feugiat. In non aliquam felis. Sed diam sapien,
-              blandit vitae orci eu, venenatis vestibulum ante. Cras at mi a leo
-              consequat mattis. Nunc vestibulum interdum rutrum
+              <ul>
+                <li>
+                  Understood technical principles of several common data
+                  structures, such as queue, stack, and linked list.
+                </li>
+                <li>
+                  Leveraged classical algorithms, like Merge sort and Dijkstra,
+                  using Java
+                </li>
+                <li>
+                  Achieved a complete AVL tree, including operations of
+                  inserting and deleting, and can handle many exceptions, such
+                  as deleting a node that doesn't exist or inserting a duplicate
+                  node
+                </li>
+              </ul>
             </p>
           </div>
           <div className="col-md-12 col-xl-4 item">
             <h4>Machine Learning :</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              placerat enim a erat fringilla, non ullamcorper quam auctor.
-              Pellentesque eu rhoncus magna. Cras urna diam, mollis tristique
-              orci in, commodo tempor sapien. Vestibulum imperdiet nec felis non
-              tincidunt. Praesent semper convallis vulputate. Morbi mollis risus
-              non sapien tempor feugiat. In non aliquam felis. Sed diam sapien,
-              blandit vitae orci eu, venenatis vestibulum ante. Cras at mi a leo
-              consequat mattis. Nunc vestibulum interdum rutrum
+              <ul>
+                <li>Learned Pytorch and Tensorflow and how to build models.</li>
+                <li>
+                  Understood the basic ideas of several classical machine
+                  learning models, such as convolutional neural network,
+                  k-means, autoencoder, and transformer
+                </li>
+                <li>
+                  Studied common metrics for different models, such as accuracy,
+                  confusion matrix, F1 score, mean squared/absolute
+                  error(MSE/MAE), and so on.
+                </li>
+              </ul>
             </p>
           </div>
         </div>
