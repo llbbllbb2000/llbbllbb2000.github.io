@@ -72,6 +72,74 @@ const Education = () => {
             </p>
           </div>
         </div>
+        <br /> <br />
+        <h1>Dalian University of Technology</h1>
+        <div className="row">
+          <h2 className="col-lg-6">
+            B.E. in Environmental and Ecological Engineering
+          </h2>
+          <h2 className="col-lg-6" style={{ textAlign: "right" }}>
+            09/2018 - 06/2022
+          </h2>
+        </div>
+        <br />
+        <h3>Relative Courses:</h3>
+        <br />
+        <div className="row description">
+          <div className="col-md-12 col-xl-4 item">
+            <h4>C++ Programming :</h4>
+            <p>
+              <ul>
+                <li>
+                  Understood the use of STL in C++, such as unordered_map and
+                  vector.
+                </li>
+                <li>
+                  Implemented quick sort and depth-first searching algorithms.
+                </li>
+                <li>
+                  Utilized new features in C++11, like auto and smart pointers
+                </li>
+              </ul>
+            </p>
+          </div>
+          <div className="col-md-12 col-xl-4 item">
+            <h4>Python for Data Analysis :</h4>
+            <p>
+              <ul>
+                <li>
+                  Used Python libraries, like numpy and pandas, to do data
+                  cleaning and analysis.
+                </li>
+                <li>
+                  Visualized the data distribution using matplotlib and seaborn,
+                  and gave reports based on several mathematical metrics.
+                </li>
+                <li>Connected to MySQL database to do CRUD operations.</li>
+              </ul>
+            </p>
+          </div>
+          <div className="col-md-12 col-xl-4 item">
+            <h4>Mathematical Modeling with MATLAB :</h4>
+            <p>
+              <ul>
+                <li>
+                  Learned basic MATLAB syntax and how to program based on
+                  MATLAB.
+                </li>
+                <li>
+                  Devised several models, such as linear programming and dynamic
+                  programming, to solve homework problems.
+                </li>
+                <li>
+                  Led a 3-people team to create a model based on the Monte Cario
+                  method and binomial distribution, and won first price in a
+                  school competition
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
