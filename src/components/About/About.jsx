@@ -6,9 +6,9 @@ import Game from "../../assets/images/game.jpg";
 
 const About = () => {
   const colors = {
-    "item-1": "#dfc98a",
-    "item-2": "#7EC8E3",
-    "item-3": "#acada8",
+    "item-1": "#F7D8BA",
+    "item-2": "#c6e2e9",
+    "item-3": "#a8e6cf",
   };
 
   const titles = {
@@ -36,17 +36,34 @@ const About = () => {
     ),
     "item-2": (
       <p>
-        Going fast and flying through the air are really exciting! I don't
-        really know how to play ball games, like basketball and it may because I
-        have no talent. But snowboard is really great, especially when I do a
-        prefect carve at high speed, and 
+        Going fast and flying through the is are really exciting! I don't really
+        know how to play ball games, like basketball and it may be because I
+        have no talent.
+        <br />
+        But snowboarding is really great, especially when I do a perfect turn at
+        high speed.I hope I can do a perfect curve in my next ski season, and
+        finish the intermediate trail smoothly. Maybe finish the expert trail if
+        possible? (but that's too scary, haha)
+        <br />
+        By the way, I have no idea about the feeling of riding powder (2022-2023
+        is my first ski season, and the snow condition is bad in east coast ski
+        resorts).
       </p>
     ),
     "item-3": (
       <p>
-        Vestibulum imperdiet nec felis non tincidunt. Praesent semper convallis
-        vulputate. Morbi mollis risus non sapien tempor feugiat. In non aliquam
-        felis.
+        I love games, and I believe no one hates them. the immersion is strong,
+        and when I play games, I feel like I am experiencing a totally new life.
+        Assassin's Creed 2 / Brotherhood/ Revelations, The Binding of Isaac,
+        Celeste, Hollo Knight .... they're all my favorite games.
+        <br />
+        I don't really care about genres of games if they are interesting
+        enough. Ever17, CLANNAD, STEINS;GATE, are visual novel games, but the
+        stories are awesome and impressive.
+        <br />
+        I think I have a special taste. I prefer indie games, not 3A
+        games. (My pc configuration used to be poor and could only run games
+        that didn't require high specs🤣🤣)
       </p>
     ),
   };
