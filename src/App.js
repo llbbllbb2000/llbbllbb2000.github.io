@@ -7,6 +7,7 @@ import About from "./components/About/About";
 import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import Footer from "./components/Footer/Footer";
+import Future from "./components/Future/Future";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <About />
       <Education />
       <Experience />
+      <Future />
       <Footer />
     </div>
   );
