@@ -10,14 +10,14 @@ const Title = () => {
     <section id="Title">
       <Navbar expand="md">
         <Container fluid>
-          <Navbar.Brand href="#" style={{ color: "#E1E1E1" }}>
+          <Navbar.Brand href="#" style={{ color: "#E1E1E1", animation : "fadeInDown 0.5s"}}>
             <img className="z-image" src={Zimage} alt="Z" />
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="list justify-content-end">
             <Nav>
-              {contents.map((content) => (
-                <Nav.Link className="item" href={`#${content}`}>
+              {contents.map((content, i) => (
+                <Nav.Link className="item" href={`#${content}`} style={{animation : `fadeInDown ${1 + i * 0.3}s`}}>
                   {content}
                 </Nav.Link>
               ))}
