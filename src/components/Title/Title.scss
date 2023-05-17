@@ -1,42 +1,66 @@
 #Title {
-    // position: fixed;
-    // left: 0;
-    // right: 0;
-    
-    background-color: #181A18;
+  // position: fixed;
+  // left: 0;
+  // right: 0;
+//   padding-top: 1rem;
+  background-color: #181a18;
 
-    .container-fluid {
-        // padding-left: 5rem;
-        // padding-top: 0.5rem;
-        // padding-bottom: 0.5rem;
-        text-align: center;
-        margin: auto;
-        
-        a {
-            text-decoration: none;
-            color: #E1E1E1;
-            padding: 0 3rem;
-            position: relative;
+  .container-fluid {
+    padding: 0 3rem;
 
-            &:hover {
-                color: white;
-                font-size: bold;
-
-                // text-decoration: underline 2px;
-                // text-underline-offset: 1rem;
-                
-                &::after {
-                    content: '';
-
-                    width: 60%;
-                    position: absolute;
-                    left: 20%;
-                    bottom: -3px;
-
-                    border-width: 0.1rem;
-                    border-style: solid;
-                }
-            }
-        }
+    .navbar-toggler {
+      color: white;
+      background-color: #e1e1e1;
     }
+
+    img {
+    //   position: absolute;
+      width: 6rem;
+      padding: 0;
+      margin: 0;
+      -webkit-filter: invert(0.75);
+      filter: invert(0.75);
+
+      transition: filter 1s ease-in;
+      transform: translateY(-1rem);
+
+      &:hover {
+        transform: translateY(-1rem);
+        animation: heartBeat 1s;
+        filter: invert(73%) sepia(96%) saturate(389%) hue-rotate(352deg) brightness(101%) contrast(98%);  // #fcd12a
+      }
+    }
+
+    .list {
+      margin-right: 13rem;
+    }
+
+    .item {
+      text-decoration: none;
+      color: #e1e1e1;
+
+      padding: 2% 10%;
+      position: relative;
+
+      &:hover {
+        color: #fcd12a;
+        font-size: bold;
+
+        text-decoration: underline 2px;
+        text-underline-offset: 0.5rem;
+
+        // &::after {
+        //     content: '';
+
+        //     width: 60%;
+        //     position: absolute;
+        //     left: 20%;
+        //     bottom: -3px;
+
+        //     border-width: 0.1rem;
+        //     border-style: solid;
+        // }
+      }
+    }
+  }
 }
