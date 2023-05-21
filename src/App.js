@@ -8,26 +8,22 @@ import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import Footer from "./components/Footer/Footer";
 import Future from "./components/Future/Future";
+import Delayed from "./components/Delayed/Delayed";
 
 function App() {
   return (
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path="/" element={<Layout />}>
-    //       <Route index element={<Home />} />
-    //       <Route path="About" element={<About />} />
-    //       <Route path="Blog" element={<Blog />} />
-    //     </Route>
-    //   </Routes>
-    // </BrowserRouter>
     <div>
-      <Title />
+      <Delayed waitTime={2000}>
+        <Title />
+      </Delayed>
       <Home />
-      <About />
-      <Education />
-      <Experience />
-      <Future />
-      <Footer />
+      <Delayed waitTime={2500}>
+        <About />
+        <Education />
+        <Experience />
+        <Future />
+        <Footer />
+      </Delayed>
     </div>
   );
 }

@@ -1,42 +1,41 @@
 #Home {
-  // position: fixed;
-  // left: 0;
-  // right: 0;
-
   background-color: #181a18;
   color: #e1e1e1;
-  // text-align: center;
-  // padding: rem 0;
+  padding-top: 5rem;
   padding-bottom: 3rem;
+  margin: auto;
+  // padding: 0;
+  height: 100vh;
+  margin: auto;
+
+  transition: height 0.3s ease;
+
   .intro-text {
-    white-space: nowrap;
-    overflow: hidden;
     text-align: center;
-    position: block;
   }
   h1 {
     letter-spacing: 5px;
     margin-bottom: 2rem;
-    // position: block;
+
+    &::after {
+      content: "|";
+      animation: flickerAnimation 0.8s infinite;
+    }
   }
 
-//   @keyframes animated-text {
-//     from {
-//       width: 0;
-//     }
-//     to {
-//       width: 472px;
-//     }
-//   }
+  @keyframes flickerAnimation {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
-  //   /* cursor animations */
+  span {
+    animation: rubberBand 0.5s 0.1s;
+  }
 
-  //   @keyframes animated-cursor {
-  //     from {
-  //       border-right-color: rgba(0, 255, 0, 0.75);
-  //     }
-  //     to {
-  //       border-right-color: transparent;
-  //     }
-  //   }
+  h2 {
+    opacity: 0;
+    animation: forwards fadeInDown 0.2s 1.5s;
+
+  }
 }

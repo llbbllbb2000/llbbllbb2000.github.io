@@ -17,7 +17,7 @@ const Title = () => {
           <Navbar.Collapse className="list justify-content-end">
             <Nav>
               {contents.map((content, i) => (
-                <Nav.Link className="item" href={`#${content}`} style={{animation : `fadeInDown ${1 + i * 0.3}s`}}>
+                <Nav.Link className="item" href={`#${content}`} style={{animation : `fadeInDown ${0.5 + i * 0.2}s`}}>
                   {content}
                 </Nav.Link>
               ))}
