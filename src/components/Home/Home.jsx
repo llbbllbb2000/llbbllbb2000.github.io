@@ -7,12 +7,12 @@ const Home = () => {
   const [anime, setanime] = useState('')
 
   setTimeout(() => {
-    setheight("0vh")
+    setheight("5rem")
     setanime('anime')
   }, 3000)
 
   return (
-    <section id="Home" style={{"margin-top" : height}}>
+    <section id="Home" style={{"padding-top" : height}}>
       <div className="container-fluid">
         <div className="intro-text">
           <h1>
