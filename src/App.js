@@ -13,11 +13,11 @@ import Delayed from "./components/Delayed/Delayed";
 function App() {
   return (
     <div>
-      <Delayed waitTime={2000}>
+      <Delayed waitTime={3000}>
         <Title />
       </Delayed>
       <Home />
-      <Delayed waitTime={2500}>
+      <Delayed waitTime={3500}>
         <About />
         <Education />
         <Experience />

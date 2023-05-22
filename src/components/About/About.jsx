@@ -68,18 +68,16 @@ const About = () => {
     ),
   };
 
-  const [colorState, setcolorState] = useState(colors["item-1"]);
   const [titleState, setTitleState] = useState(titles["item-1"]);
   const [contentState, setcontentState] = useState(contents["item-1"]);
 
   const demo = (props) => {
-    setcolorState(colors[props.target.id]);
     setTitleState(titles[props.target.id]);
     setcontentState(contents[props.target.id]);
   };
 
   return (
-    <section id="About" style={{ backgroundColor: colorState }}>
+    <section id="About">
       <div className="container-fluid">
         <div className="row gx-10">
           <div className="col-lg-12 col-xl-6">

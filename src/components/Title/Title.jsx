@@ -12,6 +12,7 @@ const Title = () => {
         <Container fluid>
           <Navbar.Brand href="#" style={{ color: "#E1E1E1", animation : "fadeInDown 0.5s"}}>
             <img className="z-image" src={Zimage} alt="Z" />
+            {/* <embed src={Zimage} type="image/svg+xml" /> */}
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="list justify-content-end">

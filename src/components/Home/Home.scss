@@ -3,12 +3,8 @@
   color: #e1e1e1;
   padding-top: 5rem;
   padding-bottom: 3rem;
-  margin: auto;
-  // padding: 0;
   height: 100vh;
   margin: auto;
-
-  transition: height 0.3s ease;
 
   .intro-text {
     text-align: center;
@@ -16,6 +12,7 @@
   h1 {
     letter-spacing: 5px;
     margin-bottom: 2rem;
+    word-break: break-all;
 
     &::after {
       content: "|";
@@ -29,13 +26,17 @@
     100% { opacity: 1; }
   }
 
-  span {
-    animation: rubberBand 0.5s 0.1s;
-  }
-
   h2 {
     opacity: 0;
-    animation: forwards fadeInDown 0.2s 1.5s;
+    animation: forwards fadeInDown 0.2s 2.5s;
+  }
 
+  .anime {
+    display: inline-block;
+
+    &:hover {
+      color: #fcd12a;
+      animation: rubberBand 0.5s;
+    }
   }
 }
