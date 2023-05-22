@@ -3,16 +3,16 @@ import "./Home.scss";
 import React, { useState } from "react";
 
 const Home = () => {
-  const [height, setheight] = useState("100vh")
+  const [height, setheight] = useState("30vh")
   const [anime, setanime] = useState('')
 
   setTimeout(() => {
-    setheight("100%")
+    setheight("0vh")
     setanime('anime')
   }, 3000)
 
   return (
-    <section id="Home" style={{"height" : height}}>
+    <section id="Home" style={{"margin-top" : height}}>
       <div className="container-fluid">
         <div className="intro-text">
           <h1>
