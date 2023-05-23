@@ -1,22 +1,9 @@
+import { Row, Col } from "react-bootstrap";
 import "./About.scss";
 import React, { useState } from "react";
-import Reading from "../../assets/images/reading.jpg";
-import Snowboard from "../../assets/images/snowboard.jpg";
-import Game from "../../assets/images/game.jpg";
+import MySelf from "../../assets/images/myself.jpg";
 
 const About = () => {
-  const colors = {
-    "item-1": "#F7D8BA",
-    "item-2": "#c6e2e9",
-    "item-3": "#a8e6cf",
-  };
-
-  const titles = {
-    "item-1": "Reading",
-    "item-2": "Snowboard",
-    "item-3": "Gaming",
-  };
-
   const contents = {
     "item-1": (
       <p>
@@ -60,54 +47,44 @@ const About = () => {
         I don't really care about genres of games if they are interesting
         enough. Ever17, CLANNAD, STEINS;GATE, are visual novel games, but the
         stories are awesome and impressive.
-        <br />
-        I think I have a special taste. I prefer indie games, not 3A
+        <br />I think I have a special taste. I prefer indie games, not 3A
         games. (My pc configuration used to be poor and could only run games
         that didn't require high specs🤣🤣)
       </p>
     ),
   };
 
-  const [titleState, setTitleState] = useState(titles["item-1"]);
-  const [contentState, setcontentState] = useState(contents["item-1"]);
-
-  const demo = (props) => {
-    setTitleState(titles[props.target.id]);
-    setcontentState(contents[props.target.id]);
-  };
-
   return (
     <section id="About">
-      <div className="container-fluid">
-        <div className="row gx-10">
-          <div className="col-lg-12 col-xl-6">
-            <h1>{titleState}</h1>
-            {contentState}
-          </div>
-          <div className="col-lg-12 col-xl-6 slider-container">
-            {/* Using defaultcheck instead of checked in React.js!!! */}
-            <input
-              type="radio"
-              name="slider"
-              id="item-1"
-              defaultChecked
-              onChange={demo}
-            />
-            <input type="radio" name="slider" id="item-2" onChange={demo} />
-            <input type="radio" name="slider" id="item-3" onChange={demo} />
-            <div className="cards">
-              <label className="card" for="item-1" id="img-1">
-                <img src={Reading} alt="A photo of book" />
-              </label>
-              <label className="card" for="item-2" id="img-2">
-                <img src={Snowboard} alt="A photo of snowboard" />
-              </label>
-              <label className="card" for="item-3" id="img-3">
-                <img src={Game} alt="A photo of game controller" />
-              </label>
-            </div>
-          </div>
-        </div>
+      <div className="container-fluid center">
+        <h2>About me</h2>
+        <hr></hr>
+        <br />
+        <p>
+          Hi there! I'm Zisheng Cai and I really enjoy coding and creating new
+          things! Now I'm still a CS master's student in Brandeis, and my
+          interest in computers started back in 2012 when I tried to learn how to
+          do game hacking (which was not a good thing🤣🤣) using EPL (Easy
+          Programming Language), a Chinese Programming Language.
+          <br /> <br />
+          When I entered high school, I participated in some algorithm
+          competitions in China, which really taught me a lot about algorithms
+          and data structures. For some reason, my undergraduate major was not
+          CS, but I still choose CS as my graduate major and study further.
+          <br /> <br />
+          Now my main focus is learning C++ and some front-end stuff (such as
+          React) and improving my rating in Codeforces.
+          <br /> <br />
+          Here are some technologies I've been working with recently :
+          <ul>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>React.js</li>
+          </ul>
+
+        </p>
+        <img src={MySelf} alt="myself"></img>
       </div>
     </section>
   );

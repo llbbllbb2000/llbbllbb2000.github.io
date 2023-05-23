@@ -4,6 +4,17 @@
   width: 100%;
   margin-top: -2.5rem;
   z-index: 100;
+  opacity: 0.95;
+  animation: forwards shadowAnimation 0.5s ease;
+
+  @keyframes shadowAnimation {
+    from {
+      box-shadow: 0 0 #232b2b;
+    }
+    to {
+      box-shadow: 0 1px #232b2b;
+    }
+  }
 
   .navbar {
     padding: 0;

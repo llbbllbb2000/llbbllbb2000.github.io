@@ -25,6 +25,14 @@ h1 {
   /* letter-spacing: 5px; */
 }
 
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  line-height: 25px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

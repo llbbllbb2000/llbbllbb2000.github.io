@@ -1,64 +1,87 @@
 #About {
-  padding: 5%;
-  min-height: 800px;
+  color: #e1e1e1;
+  animation: fadeInUp 1s;
+  margin: auto;
+  width: 1100px;
+  padding: 5rem 0;
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  hr {
+    filter: alpha(opacity=100, finishopacity=0, style=3);
+    width: 600px;
+    color: #987cb9;
+    size: 3;
+  }
 
   p {
-    padding-top: 2rem;
-    padding-right: 20%;
-    line-height: 2rem;
+    font-size: 0.9rem;
+    display: inline-block;
+    width: 600px;
   }
 
-  input[type="radio"] {
-    display: none;
+  img {
+    // float: right;
+    padding-left: 100px;
+    vertical-align:top;
+    width: 400px;
   }
 
-  .slider-container {
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 450px;
-    transform-style: preserve-3d;
+  .image-area {
+    display: inline-block;
+    width: 400px;
   }
 
-  .cards {
-    position: relative;
-    // margin-bottom: 20px;
+  ul {
+    list-style: circle;
+    display: grid;
+    li {
+    }
+  }
+}
 
-    .card {
-      position: absolute;
-      // width: 100%;
-      transition: transform 0.4s ease;
-      cursor: pointer;
+// second stage
+@media screen and (max-width:1150px) {
+ #About {
+  
+  margin-left: 50px;
+  margin-right: 50px;
+
+   width: auto;
+
+   hr {
+    width: 60%;
+   }
+
+   p {
+    width: 60%;
+   }
+
+   img {
+    width: 40%;
+   }
+ }
+}
+
+// third stage
+@media screen and (max-width:900px) {
+  #About {
+    hr {
+      width: 100%;
+    }
+
+    p {
+      width: 100%;
     }
 
     img {
-      width: 100%;
-      height: 100%;
-      border-radius: 10px;
-      object-fit: cover;
+      padding: 0;
+      display: block;
+      margin: auto;
+      text-align: center;
+      width: 80%;
     }
-  }
-
-  #item-1:checked ~ .cards #img-3,
-  #item-2:checked ~ .cards #img-1,
-  #item-3:checked ~ .cards #img-2 {
-    transform: translatex(-20%) scale(0.8);
-    opacity: 0.4;
-    z-index: 0;
-  }
-
-  #item-1:checked ~ .cards #img-2, 
-  #item-2:checked ~ .cards #img-3,
-  #item-3:checked ~ .cards #img-1 {
-    transform: translatex(20%) scale(0.8);
-    opacity: 0.4;
-    z-index: 0;
-  }
-
-  #item-1:checked ~ .cards #img-1,
-  #item-2:checked ~ .cards #img-2,
-  #item-3:checked ~ .cards #img-3 {
-    transform: translatex(0%) scale(1);
-    opacity: 1;
-    z-index: 1;
   }
 }
