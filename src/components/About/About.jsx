@@ -10,7 +10,7 @@ const About = () => {
   const [item, setitem] = useState(0);
 
   const contents = [
-    <p>
+    <>
       Hi there! I'm Zisheng Cai and I really enjoy coding and creating new
       things! Now I'm still a CS master's student in Brandeis, and my interest
       in computers started back in 2012 when I tried to learn how to do game
@@ -32,8 +32,8 @@ const About = () => {
         <li>Python</li>
         <li>React.js</li>
       </ul>
-    </p>,
-    <p>
+    </>,
+    <>
       I love reading books about history, philosophy, and ancient Chinese
       poetry.
       <br /> <br />
@@ -46,8 +46,8 @@ const About = () => {
       And I really appreciate the beauty of ancient Chinese poetry, it is
       concise but incredibly emotional and impressive. I won't know what and how
       to talk or write in a proper way if I don't study poetry.
-    </p>,
-    <p>
+    </>,
+    <>
       Going fast and flying through the is are really exciting! I don't really
       know how to play ball games, like basketball and it may be because I have
       no talent.
@@ -60,8 +60,8 @@ const About = () => {
       By the way, I have no idea about the feeling of riding powder (2022-2023
       is my first ski season, and the snow condition is bad in east coast ski
       resorts).
-    </p>,
-    <p>
+    </>,
+    <>
       I love games, and I believe no one hates them. the immersion is strong,
       and when I play games, I feel like I am experiencing a totally new life.
       Assassin's Creed 2 / Brotherhood/ Revelations, The Binding of Isaac,
@@ -73,7 +73,7 @@ const About = () => {
       <br /> <br />I think I have a special taste. I prefer indie games, not 3A
       games. (My pc configuration used to be poor and could only run games that
       didn't require high specs🤣🤣)
-    </p>,
+    </>,
   ];
   const images = [MySelf, Reading, Snowboard, Game];
 
@@ -84,7 +84,7 @@ const About = () => {
         <hr></hr>
         <br />
         <div className="content-area">
-          {contents[item]}
+          <p>{contents[item]}</p>
           <div className="image-area" onClick = {() => {setitem((item + 1) % contents.length)}}>
             <img className="top-image" src={images[item]} alt="top" />
             <img className="bottom-image" src={images[(item + 1) % images.length]} alt="bottom" />

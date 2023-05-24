@@ -19,36 +19,43 @@
   .content-area {
     display: grid;
     grid-template-columns: 600px 400px;
+    column-gap: 100px;
   }
 
   p {
     font-size: 0.9rem;
     display: inline-block;
-    // height: 600px;
   }
 
   .image-area {
     vertical-align:bottom;
-    margin-left: 100px;
     position: relative;
 
     img {
       width: 100%;
-      position: absolute;
-      
       border-radius: 10px;
-      transition: all 0.3s ease;
     }
+
 
     .top-image {
       z-index: 1;
       &:hover {
-        transform: translate(-10px, -10px);
+        position: absolute;
+        transition:  0.3s ease;
+        opacity: 0;
       }
 
       &:hover ~ .bottom-image{
-        transform: translate(10px, 10px);
+        opacity: 1;
+        display: block;
+        position: relative;
       }
+    }
+
+    .bottom-image {
+      opacity: 0;
+      display: none;
+      transition: all 0.3s ease;
     }
   }
 
@@ -74,7 +81,7 @@
 
     .content-area {
       grid-template-columns: 60% 40%;
-
+      column-gap: 3%;
     }
   }
 }
@@ -82,14 +89,13 @@
 // third stage
 @media screen and (max-width: 850px) {
   #About {
-    // height: 150%;
     hr {
       width: 100%;
     }
 
     .content-area {
-      grid-template-rows: 100% 100%;
-      margin-bottom: 50px;
+      grid-template-columns: auto;
+      row-gap: 30px;
 
       .image-area {
         margin: auto;
