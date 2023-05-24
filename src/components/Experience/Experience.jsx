@@ -1,11 +1,88 @@
 import "./Experience.scss";
 import Resume from "../../assets/files/Zisheng_Cai_resume.pdf";
+import { Col, Nav, Row, Tab } from "react-bootstrap";
 
 const Experience = () => {
   return (
     <section id="Experience">
       <div className="container-fluid">
-        <h1>XPeng Motors</h1>
+        <h2>Education</h2>
+        <hr />
+        <br />
+        <Tab.Container defaultActiveKey="first">
+          <Row>
+            <Col md={3}>
+              <Nav>
+                <Nav.Item>
+                  <Nav.Link eventKey="first">Brandeis University</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link eventKey="second">
+                    Dalian University of Technology
+                  </Nav.Link>
+                </Nav.Item>
+              </Nav>
+            </Col>
+            <Col md={9}>
+              <Tab.Content>
+                <Tab.Pane eventKey="first">
+                  <ol>
+                    <li>
+                      Java Programming: <br />
+                      Learned OOP Programming, and understood how to use data
+                      structures in Java, such as ArrayList, Stacks, and Queues.
+                    </li>
+                    <br />
+                    <li>
+                      Data Structures : <br />
+                      Leveraged classical algorithms, like Merge sort, AVL tree,
+                      and Dijkstra, using Java.
+                    </li>
+                    <br />
+                    <li>
+                      Machine Learning : <br />
+                      Learned Pytorch and Tensorflow, Understood basic ideas of
+                      convolutional neural network, k-means, autoencoder and so
+                      on.
+                    </li>
+                  </ol>
+                </Tab.Pane>
+                <Tab.Pane eventKey="second">
+                  <ol>
+                    <li>
+                      C++ Programming : <br />
+                      Understood C++ STL and new features in C++11, like auto
+                      and smart pointers
+                    </li>
+                    <br />
+                    <li>
+                      Python for Data Analysis : <br />
+                      Used Python libraries, like numpy, pandas, and matplotlib,
+                      to do data cleaning, data analysis, and data
+                      visualization.
+                    </li>
+                    <br />
+                    <li>
+                      Mathematical Modeling with MATLAB : <br />
+                      Led a 3-people team to create a model based on the Monte
+                      Cario method and binomial distribution, and won first
+                      price in a school competition
+                    </li>
+                  </ol>
+                </Tab.Pane>
+              </Tab.Content>
+            </Col>
+          </Row>
+        </Tab.Container>
+      </div>
+    </section>
+  );
+};
+
+export default Experience;
+
+/*
+<h1>XPeng Motors</h1>
         <div className="row">
           <h2 className="col-lg-6">Intern, Autonomous Driving Center</h2>
           <h2 className="col-lg-6" style={{ textAlign: "right" }}>
@@ -68,10 +145,5 @@ const Experience = () => {
           <button type="submit" class="btn btn-lg btn-outline-dark">
             Download CV
           </button>
-        </form> */}
-      </div>
-    </section>
-  );
-};
-
-export default Experience;
+        </form> 
+        */
