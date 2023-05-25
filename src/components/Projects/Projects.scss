@@ -1,0 +1,46 @@
+#Projects {
+  width: auto;
+  max-width: 1000px;
+  margin: auto;
+  padding: 100px 20px;
+  animation: fadeInUp 1s;
+
+  hr {
+    width: auto;
+  }
+
+  .card {
+    background-color: transparent;
+    border: none;
+
+    .card-link {
+      margin: 10px;
+      padding: 10px;
+      min-width: 250px;
+      height: 150px;
+      display: inline-block;
+      background-color: #232b2b;
+      border-radius: 10px;
+
+      transition: transform 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+
+      &:hover {
+        transform: translateY(-10px);
+      }
+
+      .card-title {
+        transition: color 0.3s ease;
+      }
+
+      .card-text {
+        font-size: 15px;
+      }
+
+      &:hover .card-title {
+        color: #fcd12a;
+      }
+    }
+  }
+}

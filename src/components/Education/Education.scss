@@ -1,7 +1,8 @@
 #Education {
-  width: 800px;
+  width: auto;
+  max-width: 800px;
   margin: auto;
-  padding: 100px 0;
+  padding: 100px 30px;
   animation: fadeInUp 1s;
 
   hr {
@@ -10,18 +11,5 @@
 
   .card {
     background-color: transparent;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  #Education {
-    margin-left: 30px;
-    margin-right: 30px;
-    width: auto;
-
-    .nav {
-      padding-bottom: 30px;
-      color: #e1e1e1;
-    }
   }
 }

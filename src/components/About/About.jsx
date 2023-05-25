@@ -22,8 +22,9 @@ const About = () => {
       structures. For some reason, my undergraduate major was not CS, but I
       still choose CS as my graduate major and study further.
       <br /> <br />
-      Now my main focus is learning C++ and some front-end stuff (such as React)
-      and improving my rating in Codeforces.
+      Now my main focus is learning C++, improving my rating in Codeforces, and
+      trying my best to do projects in CMU 15-213 and UCB CS162. I hope I can
+      find some backend developer jobs in the future.
       <br /> <br />
       Here are some technologies I've been working with recently :
       <ul>
@@ -85,9 +86,18 @@ const About = () => {
         <br />
         <div className="content-area">
           <p>{contents[item]}</p>
-          <div className="image-area" onClick = {() => {setitem((item + 1) % contents.length)}}>
+          <div
+            className="image-area"
+            onClick={() => {
+              setitem((item + 1) % contents.length);
+            }}
+          >
             <img className="top-image" src={images[item]} alt="top" />
-            <img className="bottom-image" src={images[(item + 1) % images.length]} alt="bottom" />
+            <img
+              className="bottom-image"
+              src={images[(item + 1) % images.length]}
+              alt="bottom"
+            />
           </div>
         </div>
       </div>

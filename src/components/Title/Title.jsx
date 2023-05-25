@@ -4,7 +4,7 @@ import React from "react";
 import Zimage from "../../assets/images/Z.svg"
 
 const Title = () => {
-  let contents = ["About", "Education", "Experience", "Future"];
+  let contents = ["About", "Education", "Experience", "Projects"];
 
   return (
     <section id="Title">

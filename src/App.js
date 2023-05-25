@@ -7,8 +7,8 @@ import About from "./components/About/About";
 import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import Footer from "./components/Footer/Footer";
-import Future from "./components/Future/Future";
 import Delayed from "./components/Delayed/Delayed";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <About />
         <Education />
         <Experience />
-        <Future />
+        <Projects />
         <Footer />
       </Delayed>
     </div>
