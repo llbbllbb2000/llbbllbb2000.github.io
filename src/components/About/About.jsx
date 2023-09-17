@@ -22,9 +22,8 @@ const About = () => {
       structures. For some reason, my undergraduate major was not CS, but I
       still choose CS as my graduate major and study further.
       <br /> <br />
-      Now my main focus is learning C++, improving my rating in Codeforces, and
-      trying my best to do projects in CMU 15-213 and UCB CS162. I hope I can
-      find some backend developer jobs in the future.
+      Now my main focus is learning C++, improving my rating in Codeforces. I
+      hope I can find some backend developer jobs in the future.
       <br /> <br />
       Here are some technologies I've been working with recently :
       <ul>

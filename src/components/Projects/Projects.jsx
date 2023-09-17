@@ -6,27 +6,52 @@ const Projects = () => {
   return (
     <section id="Projects">
       <div className="container-fluid">
-        <h2 style={{"textAlign" : "center"}}>Some Projects I've Built</h2>
+        <h2 style={{ textAlign: "center" }}>Some Projects I've Built</h2>
         <hr />
         <br />
         <Card>
           <Row>
             <Col sm={6} lg={4}>
-              <Card.Link
-                href="https://github.com/llbbllbb2000/llbbllbb2000.github.io"
-                target="_blank"
-              >
-                <Card.Title>TCP/IP Protocol</Card.Title>
-                <Card.Text>Built a whole TCP/IP Protocol, IP Router, and ARP Protocol.</Card.Text>
+              <Card.Link>
+                <Card.Title>Bustub database(private)</Card.Title>
+                <Card.Text>
+                  Implemented LRU-K Cache, B+ tree, and SQL queries to build a
+                  database
+                </Card.Text>
               </Card.Link>
             </Col>
             <Col sm={6} lg={4}>
               <Card.Link
-                href="https://github.com/llbbllbb2000/llbbllbb2000.github.io"
+                href="https://github.com/llbbllbb2000/TinyWebServer"
+                target="_blank"
+              >
+                <Card.Title>Tiny Web Server</Card.Title>
+                <Card.Text>
+                  Devised a web server on the concurrency model.
+                </Card.Text>
+              </Card.Link>
+            </Col>
+            <Col sm={6} lg={4}>
+              <Card.Link
+                href="https://github.com/llbbllbb2000/CS144"
+                target="_blank"
+              >
+                <Card.Title>TCP/IP Protocol</Card.Title>
+                <Card.Text>
+                  Built a whole TCP/IP Protocol, IP Router, and ARP Protocol.
+                </Card.Text>
+              </Card.Link>
+            </Col>
+            <Col sm={6} lg={4}>
+              <Card.Link
+                href="https://github.com/llbbllbb2000/cancer-diagnose"
                 target="_blank"
               >
                 <Card.Title>Cancer Detection</Card.Title>
-                <Card.Text>Devised a convolutional neural network (CNN) image classification system</Card.Text>
+                <Card.Text>
+                  Devised a convolutional neural network (CNN) image
+                  classification system
+                </Card.Text>
               </Card.Link>
             </Col>
             <Col sm={6} lg={4}>
@@ -35,7 +60,10 @@ const Projects = () => {
                 target="_blank"
               >
                 <Card.Title>Personal Website</Card.Title>
-                <Card.Text>Designed a personal website using HTML5/CSS/JS, Bootstrap, and React.js</Card.Text>
+                <Card.Text>
+                  Designed a personal website using HTML5/CSS/JS, Bootstrap, and
+                  React.js
+                </Card.Text>
                 <br />
               </Card.Link>
             </Col>

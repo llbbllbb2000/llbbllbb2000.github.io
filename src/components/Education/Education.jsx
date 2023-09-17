@@ -24,7 +24,9 @@ const Education = () => {
           <br />
           <Collapse in={(open & 1) == 1}>
             <ol>
-              <p style={{"display":"flex", "justifyContent" : "end"}}>08/2022 - 05/2024</p>
+              <p style={{ display: "flex", justifyContent: "end" }}>
+                08/2022 - 05/2024
+              </p>
               <li>
                 Java Programming: <br />
                 Learned OOP Programming, and understood how to use data
@@ -38,9 +40,9 @@ const Education = () => {
               </li>
               <br />
               <li>
-                Machine Learning : <br />
-                Learned Pytorch and Tensorflow, Understood basic ideas of
-                convolutional neural network, k-means, autoencoder and so on.
+                Operating System : <br />
+                Understanding assembly code, concurrent programming, and lock
+                techniques such as read-write lock and spinlock.
               </li>
             </ol>
           </Collapse>
@@ -60,7 +62,9 @@ const Education = () => {
           <br />
           <Collapse in={(open & 2) == 2}>
             <ol>
-              <p style={{"display":"flex", "justifyContent" : "end"}}>09/2018 - 06/2022</p>
+              <p style={{ display: "flex", justifyContent: "end" }}>
+                09/2018 - 06/2022
+              </p>
               <li>
                 C++ Programming : <br />
                 Understood C++ STL and new features in C++11, like auto and
